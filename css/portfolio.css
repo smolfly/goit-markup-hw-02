@@ -1,0 +1,57 @@
+:root {
+    --primary-text-color:#757575;
+    --title-text-color:#212121;
+    --contact-text-color: #757575;
+    --footer-contact-text-color:rgba(255, 255, 255, 0.6);
+    --accent-color:#2196F3;
+    --primary-white-color:#ffffff;
+    --secondary-gray-color:#F5F4FA;
+    --secondary-darkgray-color:#2F303A;
+ }
+
+a {
+    text-decoration: none; 
+}
+
+/* Кнопки */
+
+button {
+    background-color: var(--secondary-gray-color);
+    color: var(--title-text-color);
+
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6
+}
+
+button:hover,
+button:focus {
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Примеры работ */
+
+.case-title {
+    color: var(--title-text-color);
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.06em;
+}
+
+.case-text {
+    color: var(--primary-text-color);
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.9;
+}
+
+ 
