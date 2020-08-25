@@ -39,6 +39,12 @@
  }
 
  /* Услуги и команда */
+
+ .team {
+     background-color: var(--secondary-gray-color);
+ }
+
+
 .services-title, .team-title  {
     color: var(--title-text-color);
 
