@@ -5,7 +5,7 @@
 
 /* Кнопки */
 
-.bt {
+.btn {
     background-color: var(--secondary-gray-color);
     color: var(--title-text-color);
 
@@ -15,8 +15,8 @@
     line-height: 1.6
 }
 
-.bt:hover,
-.bt:focus {
+.btn:hover,
+.btn:focus {
     background-color: var(--accent-color);
     color: var(--primary-white-color);
 
