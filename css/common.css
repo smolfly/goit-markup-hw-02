@@ -33,20 +33,10 @@ ul {
  }
  .logo-past {
      color: #000000;
-     font-family: Raleway, sans-serif;
-     font-weight: 700;
-     font-size: 26px;
-     line-height: 1.2;
-     text-decoration: none;
  }
 
  .logo-past-footer {
     color:var(--primary-white-color);
-    font-family: Raleway, sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.2;
-    text-decoration: none; 
  }
 
  /* Навигация */
@@ -61,11 +51,19 @@ ul {
   text-decoration: none;
  }
 
+ .site-nav .current {
+   color: var(--accent-color);
+ } 
+
  .site-nav .link:hover,
- .site-nav .link:focus {
+ .site-nav .link:focus, 
+ .footer-contact-link:hover,
+ .footer-contact-link:focus, 
+ .contact-link:hover,
+ .contact-link:focus {
     color: var(--accent-color);
  }
-
+  
  /* Контакты */
 
  .contact-link {
@@ -76,11 +74,6 @@ ul {
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-decoration: none;
- }
-  
-   .contact-link:hover,
-   .contact-link:focus {
-      color: var(--accent-color);
  }
   
  /* Футер */
@@ -94,15 +87,14 @@ ul {
     font-weight: 400;
     font-size: 14px;
     text-decoration: none;
+    font-style: normal;
 
  }
- .footer-contact-link:hover,
- .footer-contact-link:focus {
-    color: var(--accent-color);
- }
+ 
 
  .adress-text {
      color: var(--primary-white-color);
      font-weight: 400;
      font-size: 14px;  
+     font-style: normal;
  }   
